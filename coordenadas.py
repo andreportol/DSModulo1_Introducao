@@ -18,8 +18,8 @@ class Coordenadas:
         elif y == 0:
             return "Eixo x"
 
-
-coordenada = Coordenadas()
-x = float(input("Valor de x: "))
-y = float(input("Valor de y: "))
-print(coordenada.calculoCoordenadas(x,y))
+if __name__=="__main__":
+    coordenada = Coordenadas()
+    x = float(input("Valor de x: "))
+    y = float(input("Valor de y: "))
+    print(coordenada.calculoCoordenadas(x,y))
