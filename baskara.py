@@ -26,7 +26,7 @@ class Baskara:
 
     def validarDelta(self):
         if self.calcularValorDelta() < 0:
-            print("Delta negativo!! Não pode calcular.")
+            print("Esta equação não possui raizes.")
         else:
             print(f"Valor de X1: {bask.calcularValorX1(a, b, c):.4f}")
             print(f"Valor de X2: {bask.calcularValorX2(a, b, c):.4f}")
