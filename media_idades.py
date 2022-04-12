@@ -13,7 +13,7 @@ class MediaIdades():
         else:    
             while idade >= 0:
                 contador += 1
-                soma_idade = soma_idade + idade
+                soma_idade += idade
                 idade = int(input())
             print(f"MEDIA = {soma_idade/contador:.2f}")
 
