@@ -4,9 +4,9 @@ class Dardo:
     def exibirMaiorDistancia(a, b, c):
         if a > b and a > c:
             return a
-        elif b > a and b > c:
+        elif b > c:
             return b
-        elif c > a and c > b:
+        else:
             return c
         
 
