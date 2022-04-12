@@ -1,16 +1,16 @@
 class Crescente:
     def verificarNumeros():
-        a=0
-        b=1
+        print("Digite dois numeros: ")
+        a= int(input())
+        b= int(input())
         while a != b:
-            print("Digite dois numeros: ")
-            a = int(input())
-            b = int(input())
             if a > b:
                 print("Decrescente!")
-            elif b > a:
+            else:
                 print("Crescente!")
-            
+            print("Digite outros dois numeros: ")
+            a = int(input())
+            b = int(input())
 
 if __name__=='__main__':
     Crescente.verificarNumeros()
