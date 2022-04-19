@@ -22,7 +22,7 @@ public class Validacao_Nota{
     }
    
     public static void main(String[]args){
-        validacao_nota vn = new validacao_nota();
+        Validacao_Nota vn = new Validacao_Nota();
         Scanner s = new Scanner(System.in);
         System.out.println("Digite a primeira nota: ");
         vn.nota1 = Float.parseFloat(s.next()); 
