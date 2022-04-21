@@ -1,6 +1,3 @@
-from numpy import integer
-
-
 class tabuada:
     def exibirTabuada(valor):
         numero = valor
