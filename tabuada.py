@@ -4,7 +4,8 @@ from numpy import integer
 class tabuada:
     def exibirTabuada(valor):
         numero = valor
-        for num in range(11):
+        # range (start, stop, step)
+        for num in range(1,11,1):
             print(f'{numero} x {num} = {numero*num}')
     
     def solicitarNumero():
