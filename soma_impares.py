@@ -1,9 +1,7 @@
 class SomaImpares:
     def calcularSoma(self, num1, num2):
         if num1 > num2:
-            numero1 = num1
-            num1 = num2
-            num2 = numero1
+            num1,num2 = num2,num1
         num1 += 1
         soma = 0
         while num1 < num2:
