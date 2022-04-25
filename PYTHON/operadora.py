@@ -7,7 +7,7 @@ class Operadora:
         if minutos <= self.franquia:
             return print(f'Valor a pagar R$ {self.valorFranquia}')
         else:
-            return print(f'Valor a pagar R$ {(minutos - self.franquia)*self.valorMinuto}')
+            return print(f'Valor a pagar R$ {self.valorFranquia+(minutos - self.franquia)*self.valorMinuto}')
 
 if __name__ == '__main__':
     minutos = int(input('Digite a quantidade de minutos: '))
