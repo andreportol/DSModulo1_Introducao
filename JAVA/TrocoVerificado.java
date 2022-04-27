@@ -9,7 +9,7 @@ public class TrocoVerificado {
         int quantidade = Integer.parseInt(s.next());
         System.out.println("Dinheiro recebido: ");
         double dinheiro_recebido = Double.parseDouble(s.next());
-        if (preco * quantidade < dinheiro_recebido) {
+        if (preco * quantidade <= dinheiro_recebido) {
             System.out.println("Troco: " + (dinheiro_recebido - (preco * quantidade)));
         } else
             System.out.println("Dinheiro insuficiente. Faltam " + (preco * quantidade - dinheiro_recebido) + " reais.");
