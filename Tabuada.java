@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Tabuada {
     public static void exibirTabuada(int valor){
         for(int i = 1; i < 11; i++){
