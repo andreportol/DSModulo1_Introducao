@@ -1,3 +1,4 @@
+package JAVA;
 import java.util.Scanner;
 public class Tabuada {
     public static void exibirTabuada(int valor){
