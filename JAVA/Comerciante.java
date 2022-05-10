@@ -1,19 +1,17 @@
-package devsuperior;
-
 import java.util.Scanner;
 
 public class Comerciante {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		// variáveis
+		// variaveis
 		int quantidade = 0;
 		String nome;
 		int cont_lucro_10 = 0, cont_lucro_10_20 = 0, cont_lucro_20 = 0;
 		double precoCompra, precoVenda, lucro = 0;
 		double totalCompra =0, totalVenda = 0, totalLucro = 0;
 		// criando os arrays
-		System.out.print("Serão digitados dados de quantos produtos: ");
+		System.out.print("Serao digitados dados de quantos produtos: ");
 		quantidade = s.nextInt();
 		String[] nomes = new String[quantidade];
 		double[] precoCompras = new double[quantidade];
@@ -23,9 +21,9 @@ public class Comerciante {
 			System.out.printf("Produto %d: \n", i + 1);
 			System.out.print("Nome: ");
 			nome = s.next();
-			System.out.print("Preço de compra: ");
+			System.out.print("Preco de compra: ");
 			precoCompra = s.nextDouble();
-			System.out.print("Preço de venda: ");
+			System.out.print("Preco de venda: ");
 			precoVenda = s.nextDouble();
 			nomes[i] = nome;
 			precoCompras[i] = precoCompra;
@@ -49,7 +47,7 @@ public class Comerciante {
 		}
 		totalLucro = totalVenda - totalCompra;
 		// exibindo os dados
-		System.out.println("RELATÓRIO: ");
+		System.out.println("RELATORIO: ");
 		System.out.printf("Lucro abaixo de 10 porcento: %d\n", cont_lucro_10);
 		System.out.printf("Lucro entre 10 e 20 porcento: %d\n", cont_lucro_10_20);
 		System.out.printf("Lucro acima de 20 porcento: %d\n", cont_lucro_20);
