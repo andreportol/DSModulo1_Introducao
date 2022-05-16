@@ -5,7 +5,7 @@ public class Matriz_Geral {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         // variáveis
-        int ordem = 0, indice = 0, coluna = 0;
+        int ordem = 0, indice = 0;
         double elemento = 0;
         double somatorio = 0;
 
